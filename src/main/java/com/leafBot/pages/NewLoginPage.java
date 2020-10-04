@@ -24,7 +24,7 @@ public class NewLoginPage extends ProjectSpecificMethods{
 	}
 	
 	public NewLoginPage enterUsername(String data) {
-		
+		//comment for new version
 		type(locateElement("username"), data);
 		
 		return this;
